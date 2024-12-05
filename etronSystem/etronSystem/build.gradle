@@ -42,3 +42,8 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+bootJar {
+    baseName = 'eronsystem'  // Customize your JAR name here
+    version =  '1.0.0'
+}
